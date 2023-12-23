@@ -43,7 +43,7 @@ const PeopleAboutUs = () => {
               <img
                 src={Testimonial}
                 alt="Testimonial img"
-                className="w-[68px] h-[68px] absolute -top-8 -left-8"
+                className="w-[68px] h-[68px] absolute -top-12 -left-1 md:-top-8 md:-left-8"
               />
               <p className="font-medium leading-8 text-colorB1">
                 “On the Windows talking painted pasture yet its
