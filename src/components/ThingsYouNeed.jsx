@@ -1,6 +1,6 @@
 import Container from "./ui/Container";
-import Plane from "../assets/icon/Plane.svg";
-import Plane1 from "../assets/icon/Plane1.svg";
+import Plane from "../assets/icon/plane.svg";
+import Plane1 from "../assets/icon/plane1.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

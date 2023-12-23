@@ -73,8 +73,10 @@ const Header = () => {
         ) : ( */}
         {menuOpen && (
           <div
-            data-aos={menuOpen ? "fade-right" : "fade-left"}
-            className="fixed top-0 left-0 z-30 bg-background h-screen w-screen flex flex-col gap-20 p-10"
+            data-aos="fade-right"
+            className={`fixed top-0 left-0 z-30 bg-background h-screen w-screen flex flex-col gap-20 p-10 ${
+              menuOpen ? "aos-init" : ""
+            }`}
           >
             <div className="flex items-center justify-between">
               <div className="flex cursor-pointer">

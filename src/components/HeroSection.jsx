@@ -35,7 +35,7 @@ const HeroSection = () => {
             data-aos="fade-right"
             data-aos-duration="800"
           >
-            <h1 className="volkhov-font font-bold text-[64px] text-darkColor">
+            <h1 className="volkhov-font font-bold text-5xl md:text-[64px] text-darkColor">
               Get started your{" "}
               <span className="text-supportingRed">bills payment</span> with us.
             </h1>
@@ -63,7 +63,7 @@ const HeroSection = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="800"
-          className="max-w-[841px] w-full mx-auto bg-white rounded-[10px] shadow-[0px_2px_80px_2px_rgba(0,0,0,0.06)] mt-14 py-9 px-6 flex justify-between items-center"
+          className="max-w-[841px] w-full mx-auto bg-white rounded-[10px] shadow-[0px_2px_80px_2px_rgba(0,0,0,0.06)] mt-14 py-9 px-6 flex flex-col md:flex-row gap-5 md:gap-0 md:justify-between items-center"
         >
           {moreInfo.map((info, i) => (
             <div key={i}>
@@ -73,7 +73,7 @@ const HeroSection = () => {
               <p className="text-paragraph text-xs">{info.writeUp}</p>
             </div>
           ))}
-          <button className="py-[14px] px-[35px] bg-supportingRed text-white font-medium text-lg shadow-[0px_8px_16px_0px_rgba(250,116,54,0.16)] rounded-[5px]">
+          <button className="py-[14px] px-[35px] bg-supportingRed text-white font-medium text-lg shadow-[0px_8px_16px_0px_rgba(250,116,54,0.16)] rounded-[5px] mt-5 md:mt-0">
             Our Socials
           </button>
         </div>
