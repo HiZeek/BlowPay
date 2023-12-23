@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .volkhov-font {
+    font-family: "Volkhov", serif;
+  }
+
+  .hero-height {
+    height: calc(100vh - 80px);
+  }
+
+  .bg {
+    background-image: url("./assets//icon//Vector.svg");
+  }
+
+  .bg1 {
+    background-image: url("./assets//icon//Vector1.svg");
+  }
+}
